@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import styled from 'styled-components';
 
 export default function Home() {
   return (
@@ -9,7 +10,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>홈페이지</div>
+      <Test>홈페이지</Test>
     </>
   );
 }
+
+const Test = styled.div`
+  background-color: aqua;
+`;
