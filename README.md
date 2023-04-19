@@ -31,3 +31,11 @@
 - Test : 테스트 코드, 리팩토링 테스트 코드 추가
 - Chore : 빌드 업무 수정, 패키지 매니저 수정
 - Etc : 그 외 자잘한 수정
+
+## git flow clone 후 프로젝트 복제하는 법
+
+```bash
+git clone <remote_url>
+git checkout -b develop origin/develop
+git flow init -d
+```
