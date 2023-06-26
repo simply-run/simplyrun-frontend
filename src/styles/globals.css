@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/static/pretendard-dynamic-subset.css');
+
+* {
+  font-family: 'Pretendard', 'Noto Sans KR', 'Open Sans', 'Roboto', sans-serif;
+}
+
+/*  global colors */
+:root {
+  --primary-color: #fd5e53;
+  --secondary-color: #0085ca;
+  --text-color: #282828;
+  --dark-color: #090e34;
+}

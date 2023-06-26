@@ -1,18 +1,27 @@
-# SimplyRun - A simple running
+# Nextjs13 Project
 
-심플리런 SNS 기반 '종합 커뮤니티 플랫폼 서비스'
+### Stack
 
-## 데모 사이트
+- Nextjs 13 (React Framework)
+- React-Query (Data Fetching)
+- Typescript (Strict Mode)
+- Tailwindcss (CSS Framework)
+- Jest (Unit Test)
+- Storybook (UI Component Test and Documentation)
+- Eslint (Linting)
+- Prettier (Code Formatter)
+- Husky (Git Hooks)
+- Lint Staged (Run linters against staged git files)
+- Commitlint (Lint commit messages)
+- Vercel (Hosting)
 
-[심플리런](http://simply-rn.com)
+### Under Consideration
 
-### 기술 스택
-
-- Typescript
-- Next.js
-- styled-components
-- react-query
-- story-book
+- Github Actions (CI/CD)
+- Nginx (Web Server)
+- AWS (Cloud Provider)
+- Docker (Containerization)
+- Terraform (Infrastructure as Code)
 
 ## git 방식
 
